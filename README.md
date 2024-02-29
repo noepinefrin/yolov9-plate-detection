@@ -132,7 +132,7 @@ create_yaml(base_dir=HOME)
 **Initialize variables**
 ```python
 FINETUNED_WEIGHTS_PATH = os.path.join(HOME, 'plate_detection.pt') # The fine-tuned weights must be under the HOME directory.
-CUSTOM_DATA_YAML_PATH = os.path.join('HOME', 'custom_data.yaml') # Custom yaml file is necessary for inferencing
+CUSTOM_DATA_YAML_PATH = os.path.join(HOME, 'custom_data.yaml') # Custom yaml file is necessary for inferencing
 DEVICE = '0' if torch.cuda.is_available() else 'cpu' # IF GPU is available, its preferred.
 ```
 
