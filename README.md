@@ -1,12 +1,19 @@
 ![](/example/batch_predict.jpg)
 # **YOLOv9 Plate Detection**
 
-Training Notebook are also published in Kaggle -> [click here!](https://www.kaggle.com/code/noepinefrin/yolov9-fine-tuning-custom-dataset-plate-detection)
+**Fine-tuned YOLOv9 weights are available in Kaggle!**
 
-**Prediction format**
+[Click to go weights!](https://www.kaggle.com/datasets/noepinefrin/yolov9-fine-tuned-plate-detection-model-weights)
+
+and also Training Notebook are published in [Kaggle!](https://www.kaggle.com/code/noepinefrin/yolov9-fine-tuning-custom-dataset-plate-detection)
+
+**Prediction Format**
 ```python
 [*xyxy, confidence, predicted_class]
 ```
+
+# How to Inference
+###### After downloading fine-tuned weights you can continue with these steps.
 
 **Clone Original YOLOv9 Repository**
 
