@@ -1,13 +1,14 @@
-**YOLOv9 Plate Detection on Image**
+![](/example/batch_predict.jpg)
+# **YOLOv9 Plate Detection**
 
-Training Notebook are just published [click here!](https://www.kaggle.com/code/noepinefrin/yolov9-fine-tuning-custom-dataset-plate-detection)
+Training Notebook are also published in Kaggle -> [click here!](https://www.kaggle.com/code/noepinefrin/yolov9-fine-tuning-custom-dataset-plate-detection)
 
 **Prediction format**
 ```python
 [*xyxy, confidence, predicted_class]
 ```
 
-*Clone Original YOLOv9 Repository*
+**Clone Original YOLOv9 Repository**
 
 ```python
 !git clone --recursive https://github.com/WongKinYiu/yolov9.git
@@ -15,13 +16,13 @@ Training Notebook are just published [click here!](https://www.kaggle.com/code/n
 %cd yolov9/
 ```
 
-*Install YOLOv9 Dependencies*
+**Install YOLOv9 Dependencies**
 ```python
 !pip install -r requirements.txt -q
 !pip install supervision datasets pyyaml -q
 ```
 
-*Import Utility Functions*
+**Import Utility Functions**
 ```python
 from models.common import DetectMultiBackend
 from utils.general import check_img_size, non_max_suppression, scale_boxes
